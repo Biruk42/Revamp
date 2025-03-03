@@ -196,9 +196,9 @@ main {
   margin: 0 auto;
 }
 .top h1 {
-  font-size: 3svw;
+  font-size: 3.3svw;
   font-weight: 700;
-  width: 500px;
+  width: 520px;
   margin: 0 auto;
   line-height: 1.1;
 }
@@ -346,4 +346,58 @@ main {
 
 .right-dir {
   text-align: right;
+}
+.feature {
+  margin-top: 100px;
+}
+.feature-top h1 {
+  font-size: 3.2svw;
+  font-weight: 700;
+  width: 500px;
+  margin: 0 auto;
+  line-height: 1.1;
+  text-align: center;
+}
+.feature-top p {
+  color: rgb(152, 152, 152);
+  font-size: 0.8rem;
+  margin: 10px auto 0;
+  width: 450px;
+  text-align: center;
+}
+.feature-bottom {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 50px;
+}
+.td-img {
+  width: 200px;
+  transform: scaleX(-1);
+  margin-top: -40px;
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.1));
+}
+.feature-bottom-left {
+  background-color: #efedec;
+  padding: 10px 20px;
+  border-radius: 12px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.feature-bottom-right {
+  background-color: #eceff5;
+}
+.feature-bottom-left h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.feature-bottom-left p {
+  font-size: 0.8rem;
+  color: rgb(152, 152, 152);
+}
+.normal {
+  transform: scaleX(1);
 }
