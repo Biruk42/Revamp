@@ -264,6 +264,86 @@ main {
   font-size: 0.8rem;
   color: white;
 }
+.grid-right-top {
+  background-color: #5e6054;
+}
 .grid-left-bottom {
   margin-bottom: 14px;
+}
+.t-white {
+  color: white;
+}
+.sm-gray {
+  color: rgb(212, 212, 212) !important;
+}
+.middle {
+  margin-top: 60px;
+}
+.middle-container {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  background-color: black;
+  padding: 60px 30px;
+}
+.middle-container-left h1 {
+  color: white;
+  font-size: 2.5rem;
+  width: 350px;
+  line-height: 1.1;
+  margin-bottom: 13px;
+}
+.limit {
+  width: 350px;
+}
+.money-stat {
+  display: flex;
+  gap: 20px;
+  color: white;
+  margin-top: 40px;
+}
+.stat-left p,
+.stat-right p {
+  font-size: 0.7rem;
+}
+.stat-left h2,
+.stat-right h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.btn {
+  margin-top: 40px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid white;
+  color: white;
+  font-size: 0.8rem;
+  background-color: transparent;
+  transition: all ease-in-out 0.3s;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.btn:active {
+  transform: scale(0.95);
+}
+.middle-img {
+  width: 250px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.middle-container-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 380px;
+}
+.left-dir {
+  text-align: left;
+}
+
+.right-dir {
+  text-align: right;
 }
