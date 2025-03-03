@@ -286,7 +286,8 @@ main {
   background-color: black;
   padding: 60px 30px;
 }
-.middle-container-left h1 {
+.middle-container-left h1,
+.footer-first h1 {
   color: white;
   font-size: 2.5rem;
   width: 350px;
@@ -405,7 +406,7 @@ main {
 }
 /* Answer section */
 .answer {
-  margin-top: 100px;
+  margin-top: 140px;
 }
 .answer-top {
   text-align: center;
@@ -477,4 +478,88 @@ main {
 }
 .ques-ans p {
   margin-bottom: 10px;
+}
+footer {
+  background-color: black;
+  padding: 80px;
+  margin-top: 100px;
+}
+span {
+  display: block;
+}
+.footer-first {
+  border-bottom: 1px solid rgb(84, 84, 84);
+  padding-bottom: 50px;
+}
+.footer-first h1 {
+  width: 500px;
+}
+.footer-first p {
+  color: rgb(206, 206, 206);
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  padding: 2px;
+  border: 1px solid rgb(167, 167, 167);
+  width: fit-content;
+  border-radius: 12px;
+}
+.input-box {
+  padding: 10px 15px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 0.8rem;
+  width: 230px;
+}
+.input-box::placeholder {
+  color: rgb(206, 206, 206);
+}
+.input-box:focus {
+  outline: none;
+}
+.input-container button {
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid white;
+  color: black;
+  font-size: 0.8rem;
+  transition: all ease-in-out 0.3s;
+}
+.input-container button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.input-container button:active {
+  transform: scale(0.95);
+}
+.footer-last {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+.footer-last h2 {
+  color: white;
+  font-size: 1.2rem;
+}
+.footer-last ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+.footer-last a {
+  color: white;
+  font-size: 0.8rem;
+  text-decoration: none;
+  transition: all ease-in-out 0.3s;
+}
+.footer-last a:hover {
+  color: #adadad;
 }
