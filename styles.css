@@ -9,7 +9,7 @@ body {
 }
 header {
   background-image: url("images/header.jpg");
-  padding: 15px 40px;
+  padding: 15px 50px;
 }
 nav {
   display: flex;
@@ -47,4 +47,27 @@ nav {
 .nav-right ul li:hover box-icon {
   color: #0f243d;
   fill: #0f243d;
+}
+.hero {
+  margin-top: 35px;
+}
+.hero h1 {
+  font-size: 3.5svw;
+  color: white;
+  width: 420px;
+}
+.hero button {
+  margin-top: 20px;
+  color: white;
+  background-color: #0f243d;
+  border-radius: 4px;
+  padding: 10px 15px;
+  font-size: 0.8rem;
+  border: none;
+  transition: all ease-in-out 0.3s;
+}
+.hero button:hover {
+  background-color: #f1f1f1;
+  color: #0f243d;
+  cursor: pointer;
 }
