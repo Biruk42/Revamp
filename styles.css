@@ -9,6 +9,7 @@ body {
 }
 header {
   background-image: url("images/header.jpg");
+  background-size: cover;
   padding: 15px 50px;
 }
 nav {
@@ -70,4 +71,110 @@ nav {
   background-color: #f1f1f1;
   color: #0f243d;
   cursor: pointer;
+}
+.glass-container {
+  width: 400px;
+  margin: 15px auto;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.drop {
+  display: flex;
+  align-items: center;
+  background-color: rgba(182, 179, 179, 0.3);
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 18px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.drop p {
+  color: rgb(227, 227, 227);
+  font-size: 0.8rem;
+}
+.drop box-icon {
+  fill: rgb(227, 227, 227);
+}
+.mid-glass {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-mid {
+  line-height: 1.1;
+}
+.left-mid p {
+  color: rgb(227, 227, 227);
+  font-size: 0.7rem;
+}
+.left-mid h2 {
+  color: rgb(227, 227, 227);
+  font-size: 2rem;
+}
+.right-mid {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.bla-whi {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  fill: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  gap: 3px;
+}
+.bla-whi p {
+  font-size: 0.7rem;
+}
+.bla-whi box-icon {
+  fill: white;
+  width: 18px;
+}
+.bottom-glass {
+  margin-top: 25px;
+}
+.recent-txt {
+  font-size: 0.7rem;
+  color: rgb(227, 227, 227);
+  margin-bottom: 5px;
+}
+.spotify {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+.spot-left {
+  display: flex;
+  gap: 15px;
+}
+.spot-contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(77, 76, 76, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 5px 8px;
+  border-radius: 100%;
+}
+.spot-left-text p {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.light {
+  font-size: 0.7rem !important;
+  color: rgb(200, 199, 199);
+}
+.spot-right p {
+  font-weight: 600;
 }
