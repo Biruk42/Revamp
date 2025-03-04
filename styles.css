@@ -55,7 +55,7 @@ nav {
 .hero h1 {
   font-size: 3.5svw;
   color: white;
-  width: 420px;
+  width: 600px;
 }
 .hero button {
   margin-top: 20px;
@@ -197,7 +197,7 @@ main {
 }
 .top h1 {
   font-size: 3.3svw;
-  font-weight: 900;
+  font-weight: 700;
   width: 530px;
   margin: 0 auto;
   line-height: 1.1;
@@ -354,7 +354,7 @@ main {
 }
 .feature-top h1 {
   font-size: 3.2svw;
-  font-weight: 900;
+  font-weight: 700;
   width: 500px;
   margin: 0 auto;
   line-height: 1.1;
@@ -413,7 +413,7 @@ main {
 }
 .answer-top h1 {
   font-size: 3.2svw;
-  font-weight: 900;
+  font-weight: 700;
   width: 500px;
   margin: 0 auto;
   line-height: 1.1;
@@ -562,4 +562,167 @@ span {
 }
 .footer-last a:hover {
   color: #adadad;
+}
+@media (max-width: 768px) {
+  header {
+    padding: 15px 20px;
+  }
+  .nav-left p {
+    font-size: 0.8rem;
+  }
+  .nav-right ul {
+    gap: 5px;
+  }
+  .nav-right ul li {
+    gap: 2px;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .hero {
+    text-align: center;
+  }
+  .glass-container {
+    width: 330px;
+    text-align: left;
+  }
+  .top {
+    padding: 10px 20px;
+  }
+  .top-title h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    width: 100%;
+    margin: 0 auto;
+    line-height: 1.1;
+  }
+  .top-title p {
+    color: rgb(152, 152, 152);
+    font-size: 0.9rem;
+    margin: 10px auto 0;
+    width: 100%;
+  }
+  .grid {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .grid-left {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .grid-left-bottom {
+    text-align: center;
+    width: 100%;
+  }
+  .grid-left-top {
+    width: 100%;
+  }
+  .middle-container-left {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .middle-container {
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    align-content: center;
+    gap: 40px;
+    padding: 40px 10px;
+  }
+  .middle-container-right {
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .limit {
+    width: 100%;
+  }
+  .money-stat {
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px auto;
+  }
+  .middle-container-left h1,
+  .footer-first h1 {
+    font-size: 2rem;
+    line-height: 1;
+    text-align: center;
+    width: 100%;
+  }
+  .left-dir,
+  .right-dir {
+    text-align: center;
+  }
+  .limit {
+    text-align: center;
+  }
+  .feature-top h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    width: 300px;
+    margin: 0 auto;
+    line-height: 1.1;
+  }
+  .feature-top p {
+    color: rgb(152, 152, 152);
+    font-size: 0.8rem;
+    margin: 10px auto 0;
+    width: 300px;
+  }
+  .question-container {
+    width: 350px;
+  }
+  .que-cont {
+    width: 350px;
+  }
+  .input-container {
+    justify-content: center;
+    width: 100%;
+  }
+  .input-box {
+    width: 63%;
+  }
+  .footer-first h1 {
+    width: 100%;
+  }
+  .footer-first p {
+    text-align: center;
+  }
+  .footer-last {
+    flex-direction: column;
+  }
+  .footer-last ul {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .answer-top h1 {
+    font-size: 2.5rem;
+    width: 100%;
+  }
+  .answer-top p {
+    width: 100%;
+  }
+  .td-img {
+    width: 100px;
+    margin-top: -40px;
+  }
+  footer {
+    padding: 25px;
+  }
+  .btn {
+    text-align: center;
+  }
+
+  .middle-img {
+    width: 150px;
+  }
 }
